@@ -9,6 +9,6 @@
 </br></br>
 ### Assignment Check List
 - [x] 서버란?
-- [] nodeJS express, Django, Spring 에 대해서
-- [] SQL vs noSQL 차이점
-- [] restAPI 란?
+- [ ] nodeJS express, Django, Spring 에 대해서
+- [ ] SQL vs noSQL 차이점
+- [ ] restAPI 란?

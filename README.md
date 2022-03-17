@@ -15,6 +15,16 @@
 >   > * MVT란 : Model(SQL같은 DB인터페이스), View(User Interface파트. 예시로 클라이언트가 URL로 접속 시 view가 , View가 model에서 적절한 html찾아 클라이언트에게 보여주고, template에게 Options의 인자를 제공함), Template(Jason같은 런타임용 스크립트처럼 보인다. Template파일 내부에 클라이언트가 실행 가능한 기능이 표기되어 있어 프론트엔드 작업자에게 제공하는 듯 하다. 마치 DLL로 plug-in하는 느낌이다.)
 >   > * express와의 차이점 : 프레임워크 작동 방식에서 Django가 MVT방식때문인지 프론트 엔드와 독립성이 강해 보인다.
 
+> * Spring : Java 기반 웹 프레임워크
+>   > * 특징 : 메모리 관리. OOP를 더 준수하게 만들도록 도와주는 역할. 독립성 증가, 은닉 증가.
+
+#### 3. SQL vs noSQL 차이점
+> |:---:|:---:|:---:|
+> |   언어    |        SQL        |        noSQL        |
+> |   정규화  |         O         |           X         |
+> |   스키마  |        정적       |   동적(ex. Jason)   |
+> | 쿼리 처리 | 표준 SQL 쿼리 구문 | 구조화되지 않은 쿼리 |
+> |저장소 구조|      비계층적      |       계층적        |
 
 
 ### Question?

@@ -46,10 +46,10 @@
 > * JavaScript는 스크립트 언어로 인터프리터로 번역되는 언어이다. 그러면 JavaScript 엔진 동작이 컴파일인가? 인터프리터인가?<https://hanamon.kr/javascript-%EB%9F%B0%ED%83%80%EC%9E%84-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84/#:~:text=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9E%80%20%EC%9E%90%EB%B0%94,%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%ED%95%9C%EB%8B%A4.>
 > * Node.js에서 Node는 loop라고 하는데 Node는 Node.js 프로그램 그 자체를 의미하는 것과 비슷한가?<https://hanamon.kr/nodejs-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/>
 > * MVT 해석한게 아닌 것 같은데?
-> 
+
 </br></br>
 ### Assignment Check List
 - [x] 서버란?
 - [x] nodeJS express, Django, Spring 에 대해서
 - [x] SQL vs noSQL 차이점
-- [ ] restAPI 란?
+- [x] restAPI 란?

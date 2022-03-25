@@ -2,15 +2,15 @@
 ## CodeLion Making Web
 
 ### AssignMent2(22.03.19~22.03.26)
-
-#### 1. HTML이란?
+#### 1. [로그인 페이지 만들기](https://github.com/seunggukjang/CodeLion/blob/main/LoginMain.html)
+#### 2. HTML이란?
 > * [Hypertext Markup Language(하이퍼텍스트 마크업 언어)](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)의 약자로 사용자가 사진이나 텍스트 같은 자료들을 '웹 브라우저에서 어떻게 보여줄 것인지를 표현'하는 선언형 언어
 즉, 웹 브라우저의 탭 이름은 다음과 같은 구문으로 정할 수 있다.
 
 ```html
 <title>탭 이름</title>
 ```
-#### 2. `<a>`란?
+#### 3. `<a>`란?
 > * 하이퍼링크를 만들 수 있게 해주는 ~~태그~~ 요소 [태그아닌가?] (https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started) 이 요소에는 href, title과 target등의 속성 존재
 > * href : [Hypertext REFerence(하이퍼텍스트 참조)](https://www.pcmag.com/encyclopedia/term/href#:~:text=The%20HREF%20is%20an%20attribute,called%20the%20%22anchor%20text.%22)의 약자로 지정된 웹 주소로 연결시켜줌
 > * title : 링크에 대한 추가 정보를 나타냄. 링크 위로 마우스를 올리면 title에 지정된 정보가 뜸.
@@ -66,13 +66,15 @@
 > * SOAP : Simple Object Access Protocol로 [다른 언어로 다른 플랫폼에서 빌드된 application이 통신할 수 있도록 설계된 최초의 표준 프로토콜](https://www.redhat.com/ko/topics/integration/whats-the-difference-between-soap-rest)
 
 ### Question?
-> * JavaScript는 스크립트 언어로 인터프리터로 번역되는 언어이다. 그러면 JavaScript 엔진 동작이 컴파일인가? 인터프리터인가?<https://hanamon.kr/javascript-%EB%9F%B0%ED%83%80%EC%9E%84-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84/#:~:text=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9E%80%20%EC%9E%90%EB%B0%94,%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%ED%95%9C%EB%8B%A4.>
-> * Node.js에서 Node는 loop라고 하는데 Node는 Node.js 프로그램 그 자체를 의미하는 것과 비슷한가?<https://hanamon.kr/nodejs-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/>
+> * JavaScript는 스크립트 언어로 인터프리터로 번역되는 언어이다. 그러면 [JavaScript 엔진 동작이 컴파일인가? 인터프리터인가?](https://hanamon.kr/javascript-%EB%9F%B0%ED%83%80%EC%9E%84-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D-%EB%B9%84%EB%8F%99%EA%B8%B0%EC%99%80-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84/#:~:text=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9E%80%20%EC%9E%90%EB%B0%94,%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%9F%B0%ED%83%80%EC%9E%84%EC%9D%B4%EB%9D%BC%EA%B3%A0%20%ED%95%9C%EB%8B%A4.)
+> * [Node.js에서 Node는 loop라고 하는데 Node는 Node.js 프로그램 그 자체를 의미하는 것과 비슷한가?](https://hanamon.kr/nodejs-%EA%B0%9C%EB%85%90-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/)
 > * MVT 해석한게 아닌 것 같은데?
 > * rest에서 자원의 상태란 무엇인가?
 
-</br></br>
 ### Assignment Check List
+- [] CORS 란
+- [] 쿠키/세션에 대해서
+* (22.03.15~22.03.19)
 - [x] 서버란?
 - [x] nodeJS express, Django, Spring 에 대해서
 - [x] SQL vs noSQL 차이점

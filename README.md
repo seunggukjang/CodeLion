@@ -6,14 +6,14 @@
 #### 2. CORS란?
 > * [cross-oirgin resource sharing](https://beomy.github.io/tech/browser/cors/)
 > * ![연결](https://beomy.github.io/static/af4eb5de91d11272a3933a4ca158b2a9/d8a73/cors.webp)
-> 연결형태
+ 연결형태
 > * ![URL](https://beomy.github.io/assets/img/posts/browser/url.png)
-> URL
+ URL
 > * 동작
 > * ![Simple request](https://beomy.github.io/assets/img/posts/browser/cors_simle_request.png)
-> Simple request
+ Simple request
 > * ![Preflight request](https://beomy.github.io/assets/img/posts/browser/cors_preflight_request.png)
-> Preflight request
+ Preflight request
 #### 3. 쿠키/세션이란?
 > * 서버와 클라이언트는 항상 연결되어 있지 않는다.(Connectionless, Stateless)
 > * 쿠키는 클라이언트 로컬에 저장되는 Key-Value쌍의 작은 데이터 파일

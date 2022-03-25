@@ -3,14 +3,27 @@
 
 ### AssignMent2(22.03.19~22.03.26)
 #### 1. [로그인 페이지 만들기](https://github.com/seunggukjang/CodeLion/blob/main/LoginMain.html)
-#### 2. HTML이란?
+#### 2. CORS란?
+> * [cross-oirgin resource sharing](https://beomy.github.io/tech/browser/cors/)
+> * ![연결](https://beomy.github.io/static/af4eb5de91d11272a3933a4ca158b2a9/d8a73/cors.webp)
+> * ![URL](https://beomy.github.io/assets/img/posts/browser/url.png)
+> * 동작
+> * ![Simple request](https://beomy.github.io/assets/img/posts/browser/cors_simle_request.png)
+> * ![Preflight request](https://beomy.github.io/assets/img/posts/browser/cors_preflight_request.png)
+#### 3. 쿠키/세션이란?
+> * 서버와 클라이언트는 항상 연결되어 있지 않는다.(Connectionless, Stateless)
+> * 쿠키는 클라이언트 로컬에 저장되는 Key-Value쌍의 작은 데이터 파일
+> * ![쿠키](https://miro.medium.com/max/1400/1*fWfKsO9P2rReNzJM2doBhQ.png)
+> * 세션은 브라우저가 종료되기 전까지 클라이언트의 요청을 유지하게 해주는 기술
+> * ![세션](https://miro.medium.com/max/1400/1*fWfKsO9P2rReNzJM2doBhQ.png)
+#### 4. HTML이란?
 > * [Hypertext Markup Language(하이퍼텍스트 마크업 언어)](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)의 약자로 사용자가 사진이나 텍스트 같은 자료들을 '웹 브라우저에서 어떻게 보여줄 것인지를 표현'하는 선언형 언어
 즉, 웹 브라우저의 탭 이름은 다음과 같은 구문으로 정할 수 있다.
 
 ```html
 <title>탭 이름</title>
 ```
-#### 3. `<a>`란?
+#### 5. `<a>`란?
 > * 하이퍼링크를 만들 수 있게 해주는 ~~태그~~ 요소 [태그아닌가?] (https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started) 이 요소에는 href, title과 target등의 속성 존재
 > * href : [Hypertext REFerence(하이퍼텍스트 참조)](https://www.pcmag.com/encyclopedia/term/href#:~:text=The%20HREF%20is%20an%20attribute,called%20the%20%22anchor%20text.%22)의 약자로 지정된 웹 주소로 연결시켜줌
 > * title : 링크에 대한 추가 정보를 나타냄. 링크 위로 마우스를 올리면 title에 지정된 정보가 뜸.
@@ -20,9 +33,6 @@
 ```html
 <p>A link to my <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">favorite website</a>.</p>
 ```
-
-
-
 
 ### AssignMent1(22.03.15~22.03.19)
 #### 1. 서버란?

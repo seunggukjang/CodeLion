@@ -9,11 +9,12 @@ body {
 
 .mainBox {
     text-align: center;
-    background-image: url("file:///D:/CodeLion/week2/source/loginExercise1.png");
+    top: 10%;
+    background-image: url("https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 600px 750px;
+    background-size: 600px 600px;
     width: 600px;
-    height: 750px;
+    height: 600px;
     position: absolute;
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -29,7 +30,6 @@ body {
 .loginBox {
     position: absolute;
     margin: 50px;
-    top: 20%;
 }
 
 .loginBoxInside {
@@ -108,8 +108,12 @@ input[id="keepsignedin"]:checked+label {
 
 .inputInfo {
     position: relative;
-    width: 400px;
-    height: 50px;
+    padding: 5px;
+    font-size: x-small;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 380px;
+    height: 30px;
     opacity: 0.5;
     border-radius: 50px;
     border: none;
@@ -117,25 +121,12 @@ input[id="keepsignedin"]:checked+label {
     border-top: 0px;
     border-left: 0px;
     border-bottom: 0px;
-}
-
-.inputInfo2 {
-    position: relative;
-    width: 400px;
-    height: 50px;
-    opacity: 0.5;
-    border-radius: 50px;
-    border: none;
-    border-right: 0px;
-    border-top: 0px;
-    border-left: 0px;
-    border-bottom: 0px;
-    right: 100px;
 }
 
 .buttonInfo {
-    width: 400px;
-    height: 50px;
+    cursor: pointer;
+    width: 410px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     border-right: 0px;
@@ -148,8 +139,9 @@ input[id="keepsignedin"]:checked+label {
 
 .buttonInfo2 {
     position: relative;
-    width: 400px;
-    height: 50px;
+    cursor: pointer;
+    width: 410px;
+    height: 40px;
     border-radius: 50px;
     border: none;
     border-right: 0px;

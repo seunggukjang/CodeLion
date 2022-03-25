@@ -5,13 +5,18 @@
 #### 1. [로그인 페이지 만들기](https://github.com/seunggukjang/CodeLion/blob/main/LoginMain.html)
 #### 2. CORS란?
 > * [cross-oirgin resource sharing](https://beomy.github.io/tech/browser/cors/)
+
 > * 연결형태
 > * ![연결](https://beomy.github.io/static/af4eb5de91d11272a3933a4ca158b2a9/d8a73/cors.webp)
+
 > * URL
 > * ![URL](https://beomy.github.io/assets/img/posts/browser/url.png)
+
 > * 동작
+
 > * Simple request
 > * ![Simple request](https://beomy.github.io/assets/img/posts/browser/cors_simle_request.png)
+
 > * Preflight request
 > * ![Preflight request](https://beomy.github.io/assets/img/posts/browser/cors_preflight_request.png)
 #### 3. 쿠키/세션이란?

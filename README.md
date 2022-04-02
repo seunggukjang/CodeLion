@@ -1,5 +1,50 @@
 # README.MD
 ## CodeLion Making Web
+# **OAuth(인증과 권한)**
+## 무엇?
+- 제3자에게 아이디와 비밀번호를 제공하지 않는 인증 방법
+![title](https://t1.daumcdn.net/cfile/tistory/244EEB485835498F32)   
+- 실제 비밀번호 대신에 AccessToken 이라는 일종의 비밀키를 이용
+## 원리
+- Client가 Auth Server로부터 Client ID, Client Secret, Redirect URL을 모두 등록/발급 받은 상태
+1. Resource Owner의 승인
+- Resource Owner가 Auth Server에게 승인 요청으로 Authorization Code을 받고 Client에게 Code를 보냄
+2. Auth Server의 승인
+- Client는 네 가지 정보를 Auth Server에 보낸다
+- 모두 일치하면 Access Token을 발급
+3. Resource Server의 기능을 이용
+
+![title](https://media.vlpt.us/images/sonypark/post/634a4723-20bb-464e-bf2e-b0c0dc83d1ac/oauth_process.png)   
+
+# **ORM(Object Relational Mapping)**
+## 무엇?
+- ORM은 MVC(MVT) 패턴에서 모델(Model)을 기술하는 도구
+![title](https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/09/MVC-Design-Pattern.png?resize=980%2C785&ssl=1) 
+- 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑(연결)해주는 도구
+![title](https://i0.wp.com/hanamon.kr/wp-content/uploads/2021/09/ORM.png?resize=768%2C391&ssl=1)   
+- DB 사용을 자바스크립트 코드로 이용하기위함
+
+- 예시
+```sql
+CREATE TABLE person (
+"id" serial NOT NULL PRIMARY KEY,
+"first_name" varchar(30) NOT NULL,
+"last_name" varchar(30) NOT NULL
+);
+```
+SQL문
+```py
+from django.db import models
+class Person(models.Model):
+first_name = models.CharField(max_length=30)
+last_name = models.CharField(max_length=30)
+```
+Django python
+
+
+
+
+
 
 ### AssignMent2(22.03.19~22.03.26)
 #### 1. [로그인 페이지 만들기](https://github.com/seunggukjang/CodeLion/blob/main/LoginMain.html)
